@@ -6,8 +6,9 @@ class O_File
 {
 private:
     std::fstream fs;
+    const char* path;
 public:
-    O_File(const char* path);
+    O_File(const char* _path);
     ~O_File();
     void add(const char* add);
     void Display();
