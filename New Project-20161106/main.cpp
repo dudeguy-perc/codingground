@@ -1,11 +1,10 @@
-#include <iostream>
-
-using namespace std;
+#include "O_File.h"
 
 int main()
 {
-   cout << "Hello World" << endl; 
-   
+    O_File file("temp.txt");
+    //file.add("Hello, world!\n");
+    file.Display();
    return 0;
 }
 
