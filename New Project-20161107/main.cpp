@@ -1,7 +1,5 @@
 #include <iostream>
 #include "Something.h"
-//using std::cout;
-//using std::endl;
 
 int main()
 {
