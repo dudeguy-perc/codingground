@@ -5,7 +5,7 @@ class Something {
 private:
     static unsigned int count;
 public:
-    const unsigned int id = count++;
+    const unsigned int id;
     Something():id(count++){};
 };
 
